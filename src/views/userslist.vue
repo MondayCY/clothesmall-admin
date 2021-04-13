@@ -1,11 +1,13 @@
 <template>
     <div>
-        1111
+        <users></users>
     </div>
 </template>
 
 <script>
+import users from '../components/users.vue';
 export default {
+  components: { users },
     data() {
         return {
             
@@ -20,6 +22,5 @@ export default {
 };
 </script>
 
-<style>
-
+<style scoped>
 </style>
